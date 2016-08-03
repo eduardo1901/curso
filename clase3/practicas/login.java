@@ -2,7 +2,7 @@
 
 import java.io.*;
 
-public class tarea{
+public class login{
 private static final String USERNAME ="eduardo";
 private static final String PASSWORD = "1234";
 
@@ -13,7 +13,7 @@ try{
 do{
 System.out.println("Usuario = ");
 username = dataIn.readLine();
-}while (username.equals("") ||  !username.equals(USERNAME) );
+}while (username.equals("") ||  !username.equals(USERNAME). );
 }catch (IOException e){
 System.out.println("Error en el usuario");
 }
